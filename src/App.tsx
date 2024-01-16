@@ -7,7 +7,7 @@ function App() {
       <Alert>
         Hello <h1>World</h1>
       </Alert>
-      <Button text={"Click Me!"} />
+      <Button onClick={() => console.log("Clicked!")}>Click Me!</Button>
     </div>
   );
 }
